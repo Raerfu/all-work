@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;/*清除文字下划线*/
+}
+/*花卉顶部导航开始*/
+.flower-header{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+}
+.header-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+.header-nav a{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.header-nav a:nth-child(1) {
+    color: blue;
+}
+.header-nav a:hover{
+    color:  blue;
+}
+/*导航结束*/
+
+/*轮播图开始*/
+.picture{
+    width: 1884px;
+    height: 760px;
+    position: relative;
+    margin:  0 auto;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    opacity:0.9;
+}
+.picture-dot{
+    width: 55px;
+    height: 21px;
+    position: absolute;
+    bottom: 50px;
+    left: 900px;
+}
+.dots{
+    width: 20px;
+    height: 20px;
+    background: #00a5c4;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    float:right;
+    cursor: pointer;
+}
+.dot:hover{
+    background: #00a5c4;
+}
+.picture-left{
+    width: 42px;
+    height: 69px;
+    /* background: #000;*/
+    position: absolute;
+    left:0;
+    top: 380px;
+    background-image:url(../img/icon-slides.png);
+    background-position: 83px 0;
+}
+.picture-left:hover{
+    background-position: 0 0;
+}
+.picture-right{
+    width: 42px;
+    height: 69px;
+
+    position: absolute;
+    right: 0;
+    top: 380px;
+    background-image: url("../img/icon-slides.png");
+    background-position: 42px 0;
+}
+.picture-right:hover{
+    background-position: -42px 0;
+}
+/*轮播图结束*/
+
+/*素馨花艺开始*/
+.box3{
+    width: 100%;
+    height: 744px;
+
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+.box3-first{
+    width: 1104px;
+    height: 604px;
+    background: white;
+    margin: 0 auto;
+}
+.box3-more{
+    width: 100%;
+    height: 43px;
+    margin:0 auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.box3-more-p{
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+    line-height: 50px;
+    margin-left: 114px;
+}
+.box3-picture{
+    width: 1150px;
+    height: 476px;
+
+    padding: 0 60px;
+    margin:50px  auto 0;
+    box-sizing: border-box;
+}
+.box3-picture-box{
+    width: 320px;
+    height: 100%;
+
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.three-picture{
+    width: 100%;
+    height: 320px;
+}
+.three-picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box3-picture-h4{
+    width: 320px;
+    height: 21px;
+    margin: 11px auto;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+.TBP-p{
+    width: 320px;
+    height: 44px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+}
+.TBP-title{
+    width: 300px;
+    height: 40px;
+    padding: 6px 15px;
+    margin: 0 auto;
+    border:1px  black;
+    border-radius: 3%;
+    background: #c43e35;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.TBP-title i{
+    width: 16px;
+    height:20px;
+    color: #b01d08;
+    padding-right: 10px;
+}
+/*详细开始*/
+.three-prve{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    float: left;
+    cursor: pointer;
+    margin-top: 200px;
+}
+.three-prve i{
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+.three-next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    margin-top:200px;
+    float: right;
+    cursor: pointer;
+
+}
+.three-next i{
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+/*详细结束*/
+
+/*素馨花艺结束*/
+
+/*素馨花语开始*/
+.four-box{
+    height: 567px;
+    padding:70px 0;
+}
+.four-box-first{
+    width: 1884px;
+    height: 43px;
+    margin:0 auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.four-picture-box{
+    width:1170px;
+    height: 504px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.four-picture1{
+    width: 585px;
+    height: 96px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    float: left;
+
+}
+.four-picture1-left{
+    width: 180px;
+    height: 96px;
+    float: left;
+}
+.four-picture1-left img{
+    width: 160px;
+    height: 96px;
+    border-radius: 10%;
+}
+.four-picture-right{
+    width: 375px;
+    height: 96px;
+    float: right;
+}
+.four-picture-right a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: black;
+}
+.four-picture-right a:hover{
+    color: #00a5c4;
+}
+.four-title{
+    width: 375px;
+    height: 42px;
+    margin-top: 5px;
+}
+.four-title p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: rgb(118,131,143);
+    overflow: hidden;
+}
+.four-title-f{
+    width: 375px;
+    height: 21px;
+}
+.four-title-f span{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(118,131,143);
+    float: left;
+}
+.span-wang{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(118,131,143);
+    margin-left: 10px;
+}
+.span-wang i{
+    width: 14px;
+    height: 14px ;
+    color: rgb(118,131,143);
+}
+/*素馨花语结束*/
+
+/*工作室开始*/
+.five-box{
+    height: 765px;
+    padding: 0 15px;
+    margin: 90px auto;
+    box-sizing: border-box;
+}
+.five-box-first{
+    width: 1140px;
+    height: 759px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+.first-title-a{
+    width: 100%;
+    height: 43px;
+    margin:0 auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+/*倒二*/
+.five-box-next{
+    width: 1080px;
+    height: 612px;
+    padding: 30px;
+    margin: 50px auto 0;
+    box-sizing: border-box;
+}
+.five-title-p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    color:rgb(34,34,34);
+    text-align: center;
+}
+.five-title-p span{
+    height: 20px;
+}
+.five-picture-map{
+    width: 1080px;
+    height: 340px;
+    margin-top: 20px;
+    text-align: center;
+}
+.five-picture-map img {
+    width: 530px;
+    height: 340px;
+}
+/*倒二*/
+
+/*底部开始*/
+.foot{
+    width: 1349px;
+    height: 181px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.foot-text{
+    width: 1349px;
+    height: 56px;
+    margin-top: 10px;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+}
+.foot-picture{
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+}
+.foot-picture i{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #0dc100;
+    cursor: pointer;
+}
+.foot-picture a{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #21c0bd;
+    cursor: pointer;
+}
+.foot-txt{
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+.foot-txt img{
+    width: 20px;
+    height: 20px;
+}
+.txt-1{
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+.foot-txt-next{
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+.txt-2{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170,170,170);
+    text-align: center;
+}
+/*底部结束*/
+
+
+
+

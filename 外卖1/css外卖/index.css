@@ -1,0 +1,385 @@
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height:1px ;
+    margin: 0 auto;
+    /*background: red;*/
+}
+/*头部开始*/
+#header{
+    width: 100%;
+    height: 0.91rem;
+    background:#ffac13 ;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#topBar:before{
+    content: "";
+    display: block;
+}
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: white;
+    border-radius: 0.21rem;
+    margin-left:0.42rem;
+}
+.scanBox{
+    width: 0.42rem;
+    height: 0.42rem;
+    background: white;
+    border-radius: 50%;
+    margin-left: 0.54rem;
+}
+.searchBox i{
+    width: 0.29rem;
+    height: 0.26rem;
+    /*background: red;*/
+    margin-top: 0.07rem;
+    float: left;
+    margin-left: 0.08rem;
+    color: rgba(0,0,0,0.6);
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    border: none;
+    margin-top: 0.08rem;
+    margin-left: 0.07rem;
+}
+input:focus{  /*清除表单控件获得焦点后的轮廓线*/
+    outline: none;
+}
+.scanBox i{
+    width: 0.29rem;
+    height: 0.26rem;
+    /*background: red;*/
+    float: left;
+    margin-left: 0.04rem;
+    margin-top: 0.04rem;
+    color: rgba(0,0,0,0.6);
+}
+
+/*轮播开始*/
+.banner{
+    width: 7.5rem;
+    height: 3.24rem;
+   /* background: red;*/
+    position: relative;
+    margin: 0.24rem auto 0;
+    box-shadow: 0 5px 16px 0 #efb10a;
+}
+.imageBox{
+    width: 7.02rem;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+    /*background: rebeccapurple;*/
+}
+ .imageItem{
+    width: 7.02rem;
+    height: 3rem;
+   position: absolute;
+    left: 0;
+    top: 0;
+}
+.imageBox img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imageItem ul.active{
+    z-index: 1;
+}
+.pagerBox{
+    width:1.12rem ;
+    height: 0.13rem;
+    position: absolute;
+    top:0.29rem;
+    left: 0.63rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+}
+.pagerBox li{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+}
+.pagerBox li.active{
+    background: #ffac13;
+}.middleBox{
+    width: 6.01rem;
+    height: 4.39rem;
+    /*background: red;*/
+    margin: 0.42rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .item{
+     width:1.6rem ;
+     height: 2.1rem;
+    /* background: black;*/
+     font-size: 22px;
+     text-align: center;
+ }
+ .item img{
+     width: 100%;
+     float: left;
+ }
+
+ /*推荐开始*/
+.gengduo{
+    width: 7.5rem;
+    height: 3.21rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.tuijian{
+    width: 3.38rem;
+    height: 2.21rem;
+    margin: 0.6rem 0.13rem 0 0.24rem;
+    position: relative;
+    float: left;
+}
+.tuijian img{
+    width: 3rem;
+    height: 2.21rem;
+}
+.btn-left{
+    width: 1.15rem;
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.08rem;
+    font-size: 5px;
+    text-align: center;
+    line-height: 0.4rem;
+    /*background: #ffac13;*/
+}
+.btn-left:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.btn-right{
+    width: 1.15rem;
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.08rem;
+    font-size: 5px;
+    text-align: center;
+    line-height: 0.4rem;
+    /*background: #ffac13;*/
+}
+.btn-right:hover{
+    color: #fff;
+    cursor: pointer;  /*移动变成小手*/
+}
+.shop{
+    width: 4.57rem;
+    height: 1.6rem;
+    margin: 0 auto;
+    /*background: #ffac13;*/
+}
+.topItem{
+    width:3.1rem;
+    height: 0.43rem;
+    /*background: red;*/
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.topItem ul{
+    float: left;
+}
+.topItem img{
+    margin: 0 auto  ;
+}
+.mItem{
+    width:4.59rem;
+    height: 0.24rem;
+    margin: 0.2rem auto ;
+    /*background: green;*/
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 10px;
+}
+.left{
+    float: left;
+    color:  #535151;
+}
+.middle{
+    margin: 0 auto;
+    color: #d10825;
+}
+.right{
+    float: right;
+    color: #d10825;
+}
+.bItem{
+    width: 2.65rem;
+    height: 0.39rem;
+    /*background: black;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    width: 0.26rem;
+    height: 0.4rem;
+    background: #fa7ede;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.time1{
+    background: white;
+    font-size: 12px;
+}
+/*每日一荐*/
+.day{
+    width: 7.5rem;
+    height: 7.3rem;
+    background: #eeeeee;
+    margin: 0.4rem auto;
+}
+.recommend{
+    width:6.96rem ;
+    height: 1.03rem;
+   /* background: #00a0ce;*/
+    margin: 0 auto;
+    font-size: 15px;
+    color: #f44326;
+    font-weight: 100;
+}
+.goodsBox{
+    width: 6.96rem;
+    height: 5.97rem;
+    /*background: #ffac13;*/
+    margin: 0.2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.goods{
+    width: 6.96rem;
+    height: 1.37rem;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+}
+.goods img{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.06rem;
+    left: 0.14rem;
+}
+.goods-right{
+    width:5.52rem;
+    height: 1.37rem;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.xing{
+    width:1.72rem;
+    height: 0.27rem;
+    position: absolute;
+    top: 0.05rem;
+    right: 0.26rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.xing i{
+    color: #ffac13;
+    height: 0.27rem;
+}
+.shopping{
+    width: 0.56rem;
+    height: 0.56rem;
+    position: absolute;
+    bottom: 0.23rem;
+    right: 0.3rem;
+}
+.shopping img{
+    width: 0.56rem;
+    height: 0.56rem;
+}
+.t{
+    width: 5.52rem;
+    height: 0.57rem;
+    font-size: 18px;
+    color: black;
+}
+.m{
+    width: 5.52rem;
+    height: 0.37rem;
+    font-size: 10px;
+    color:#616161;
+}
+.b{
+    width: 5.52rem;
+    height: 0.41rem;
+    font-size: 10px;
+}
+.b h3,ul{
+    float: left;
+}
+.b h3{
+    color: red;
+}
+.b ul{
+    color: gold;
+}
+
+/*底部开始*/
+.dibu{
+    width: 7.5rem;
+    height: 1.27rem;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+.dibuBox{
+    width: 6.24rem;
+    height: 0.99rem;
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.dibuItem{
+    width: 0.8rem;
+    height: 0.99rem;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+}
+.dibuItem img{
+    width: 100%;
+    height: 0.7rem;
+    float: left;
+    line-height: 0.7rem;
+}

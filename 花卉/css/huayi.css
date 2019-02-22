@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /*清除文字下划线*/
+}
+
+/*导航开始*/
+.headerBox {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.navBox {
+    width: 1310px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+
+.header-nav a {
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: #2a333c;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+
+.header-nav a:nth-child(2) {
+    color: blue;
+}
+
+.header-nav a:hover {
+    color: blue;
+}
+
+/*导航结束*/
+
+.topBox {
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+}
+
+.top {
+    width: 200px;
+    height: 61px;
+    padding: 10px 30px;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    margin: auto;
+}
+
+/*中间开始*/
+.mBox {
+    width: 100%;
+    height: 1986px;
+    padding: 30px 0;
+}
+
+.container {
+    width: 1310px;
+    height: 1980px;
+    margin: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.leftBox {
+    width: 983px;
+    height: 1980px;
+    padding: 0 15px;
+    background: #F1F1F1;
+    float: left;
+    box-sizing: border-box;
+}
+
+.left-list {
+    width: 983px;
+    height: 1925px;
+
+    padding: 30px;
+}
+
+.left-list li {
+    width: 923px;
+    height: 191px;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+
+.mediaBox {
+    width: 923px;
+    height: 160px;
+
+}
+
+.media-left {
+    width: 180px;
+    height: 160px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.media-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.media-right {
+    width: 743px;
+    height: 160px;
+
+    float: right;
+}
+
+.media-heading {
+    width: 743px;
+    height: 27px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.media-right p.desc {
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.media-right p.info {
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.rightBox {
+    width: 288px;
+    height: 355px;
+    /*background: #72fa5c;*/
+    float: right;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.met-bar {
+    width: 298px;
+    height: 355px;
+    background: #f2f2f2;
+    margin-left: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    width: 256px;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 200px;
+}
+
+.inputBox input {
+    margin: 10px 20px;
+    outline: medium;
+}
+
+.recommend {
+    width: 258px;
+    height: 205px;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.recommend i {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.recommend ul {
+    width: 258px;
+    height: 131px;
+    margin: 10px 0;
+}
+
+.recommend ul li {
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+/*中间结束*/
+
+/*底部开始*/
+.foot {
+    width: 1349px;
+    height: 181px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.foot-text {
+    width: 1349px;
+    height: 56px;
+    margin-top: 10px;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+}
+
+.foot-picture {
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.foot-picture i {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #0dc100;
+    cursor: pointer;
+}
+
+.foot-picture a {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #21c0bd;
+    cursor: pointer;
+}
+
+.foot-txt {
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+.foot-txt img {
+    width: 20px;
+    height: 20px;
+}
+
+.txt-1 {
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foot-txt-next {
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.txt-2 {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    text-align: center;
+}
+
+/*底部结束*/

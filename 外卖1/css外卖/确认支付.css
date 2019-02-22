@@ -1,0 +1,317 @@
+/*顶部开始*/
+.header{
+    width:7.5rem;
+    height:2.48rem;
+    background: #ffac13;
+    position: relative;
+}
+.shangbox{
+    width:7.5rem;
+    height:0.98rem;
+    padding:0.27rem ;
+    box-sizing: border-box;
+}
+.shang{
+    width: 6.99rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shang img{
+    height: 0.38rem;
+
+}
+.shang span{
+    flex-grow: 1;
+    font-size: 0.38rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.4rem;
+}
+.xia{
+    height: 1.21rem;
+    width:7.5rem;
+    padding:0 0.28rem 0.3rem;
+    /*background: green;*/
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.item{
+    color: #fff;
+}
+.yi{
+
+    font-size:0.18rem;
+}
+.er{
+
+    font-size:0.24rem;
+}
+.san{
+    display: flex;
+
+    font-size:0.24rem;
+}
+.shoujihao{
+    display: flex;
+    position: relative;
+    top: 0.01rem;
+}
+.san img{
+    width: 0.2rem;
+    height: 0.22rem;
+    color:#cfcfcf;
+    position: absolute;
+    top: 0.06rem;
+    display: block;
+}
+.hao{
+    margin-left:0.15rem;
+}
+/*顶部结束*/
+/*第二部分开始*/
+.bigbox{
+    width: 7.5rem;
+    height: 11.15rem;
+    background:#f2f2f2;
+}
+.one{
+    height:1.94rem;
+}
+.oneshang{
+    height: 0.68rem;
+    padding:0.19rem 0.28rem;
+    display: flex;
+    align-items: center;
+}
+.oneshang img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+.oneshang span{
+    font-size: 0.24rem;
+    color: #ffac13;
+    margin-left: 0.02rem;
+}
+.onezj{
+    flex-grow: 1;
+}
+.onexia{
+    width:6.94rem;
+    height: 1.21rem;
+    border-radius:0.1rem;
+    background: #fff;
+    margin: 0 auto;
+    padding:0 0.24rem;
+}
+.onexiashang{
+    height: 0.62rem;
+    border-bottom:0.02rem dashed rgba(0,0,0,0.1);
+    display: flex;
+    line-height: 0.62rem;
+}
+.onexiashangyou{
+    display: flex;
+}
+.onexiashangyou img{
+    width: 0.19rem;
+    height: 0.11rem;
+    position: relative;
+    top: 0.25rem;
+    left: 0.01rem;
+}
+.onexiaxia{
+    display: flex;
+    line-height: 0.59rem;
+}
+.two{
+    height:1.48rem;
+    padding:0.47rem 2.08rem;
+}
+.two img{
+    width:3.34rem;
+    height: 0.54rem;
+}
+.shangpin {
+    height: 4.44rem;
+    width: 7.5rem;
+    /*background: pink;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shangpin li{
+    margin: 0 auto;
+    padding:0.115rem 0.2rem  0.115rem 0.44rem;
+    width: 6.98rem;
+    height: 1.32rem;
+    border-radius: 0.1rem;
+    display: flex;
+    background:#fff;
+    border-radius: 0.1rem;
+}
+.shangpinitem-yi img{
+    height:1.09rem;
+}
+.shpinyi{
+    margin-right: 0.62rem;
+}
+.yizhongjian{
+    width:2.4rem;
+    height:1.09rem;
+    /*background: #ff6700;*/
+    font-size: 0.24rem;
+    line-height: 0.54rem;
+}
+.yizhongjianshang{
+    height:0.55rem;
+    color: rgba(0,0,0,0.8);
+    border-bottom:0.01rem dashed rgba(0,0,0,0.1);
+}
+.yizhongjianxia{
+    color: #ffac13;
+}
+.zhan{
+    flex-grow: 1;
+}
+.yiyou{
+    width: 1.1rem;
+    height:100%;
+    /*background: blue;*/
+    font-size: 0.24rem;
+    color: #f8cd33;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.yiyou img{
+    width: 0.37rem;
+    height: 0.37rem;
+}
+.shpiner{
+    margin-right: 0.52rem;
+}
+.shpinsan{
+    margin-right: 0.26rem;
+}
+.disanbufenbox{
+    width: 7.5rem;
+    height:3rem;
+    /*background: red;*/
+    margin-top:0.28rem;
+    padding: 0 0.28rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sanitem{
+    width:6.94rem;
+    height: 0.69rem;
+    border-radius:0.1rem;
+    background:#fff;
+    padding:0 0.24rem;
+    display: flex;
+    font-size:0.24rem;
+    align-items: center;
+}
+.hj{
+    color:#000;
+}
+.zhanwei{
+    flex-grow: 1;
+}
+.price{
+    color:#ffac13;
+}
+.heji img{
+    color:rgba(0,0,0,0.73);
+    width: 0.23rem;
+    height: 0.13rem;
+}
+.canyu{
+    font-size: 0.18rem;
+    color: #72fa5c;
+}
+.xiangxi{
+    width: 6.94rem;
+    height:0.24rem;
+    /*background: #ff6700;*/
+    position: absolute;
+    top:0.76rem;
+    display: flex;
+    padding: 0 0.24rem;
+}
+.xiangxi span{
+    font-size:0.18rem;
+    color: #ffac13;
+    line-height: 0.24rem;
+}
+.xiangxi div{
+    flex-grow: 1;
+}
+/*第二部分结束*/
+/*底部开始*/
+.dibu {
+    width: 7.5rem;
+    height: 1.44rem;
+    background: #f2f2f2;
+    padding: 0.32rem 2.21rem;
+    position: relative;
+    /*box-sizing:border-box;*/
+}
+.yingyin{
+    width: 7.5rem;
+    height:15.15rem;
+    background: #000000;
+    opacity: 0.4;
+    position:absolute;
+    top: -20rem;
+    left: 0;
+}
+.kuang{
+    width:3.08rem;
+    height: 0.5rem;
+    border-radius:0.25rem;
+    background:red;
+    position: relative;
+}
+.circle{
+    width:0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background:#fff;
+}
+.bai{
+    position: absolute;
+    top: 0.21rem;
+    left:0.77rem;
+}
+.fen{
+    opacity: 0.3;
+    position: absolute;
+    top: 0.21rem;
+    left:0.93rem;
+}
+.zi{
+    position: absolute;
+    top: 0.07rem;
+    left:1.14rem;
+    font-size: 0.24rem;
+    color: #fff;
+
+}
+.baiy{
+    opacity: 0.3;
+    position: absolute;
+    top: 0.21rem;
+    left:2.04rem;
+}
+.feny{
+    position: absolute;
+    top: 0.21rem;
+    left:2.2rem;
+}
+/*底部结束*/
+

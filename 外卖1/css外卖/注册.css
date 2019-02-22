@@ -1,0 +1,87 @@
+.box{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.box img{
+    width: 7.5rem;
+    height: 13.34rem;
+    position: relative;
+}
+.title-box{
+    width: 1.46rem;
+    height: 0.53rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background: #ffac13;
+    color: white;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.48rem;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.14rem;
+}
+.thred-box{
+    width: 5rem;
+    height: 2rem;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 6.47rem;
+    left: 1.25rem;
+}
+.second-box{
+    width: 4.5rem;
+    height: 1.5rem;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 7.37rem;
+    left: 1.5rem;
+}
+/*中间部分*/
+.first-box{
+    width: 5.61rem;
+    height: 4.5rem;
+    background: white;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 3.74rem;
+    left: 0.95rem;
+}
+.first-box-kuang{
+    width: 4.2rem;
+    height: 0.5rem;
+    margin: 0.5rem auto;
+}
+.first-box-kuang img{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+}
+.first-box-zhanghao-right{
+    width: 3.27rem;
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.01rem solid #ffac13;
+    float: right;
+}
+.first-box-zhanghao-right>li{
+    font-size: 0.24rem;
+    color: #d1cdc9;
+    text-align: left;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+}
+.denglu{
+    width: 2.26rem;
+    height: 0.57rem;
+    background: #a9a9a9;
+    color: white;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.56rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+}

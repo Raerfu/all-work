@@ -1,0 +1,314 @@
+.header{
+    width: 100%;
+    height: 1.35rem;
+    background: #ffac13;
+}
+.container{
+    width: 7.5rem;
+    height: 100%;
+    min-height:1px ;
+    margin: 0 auto;
+    display: flex;
+}
+.gerenzhongixn{
+    width: 7.22rem;
+    height: 0.45rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    /* background: #21c0bd;*/
+}
+.shezhi-left{
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+}
+/*.shezhi-left {
+    width:0.45rem;
+    height: 0.45rem;
+    color: white;
+}*/
+.shezhi-left i{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.45rem;
+    color: #ffac13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.shezhi-title{
+    color: white;
+}
+/*顶部结束*/
+/*顶部下开始*/
+.gerenbox{
+    width: 100%;
+    height: 3rem;
+    /* background: aqua;*/
+}
+.xinxibox{
+    width: 6.7rem;
+    height: 2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.xinxi{
+    width: 100%;
+    height: 1.7rem;
+    background: white;
+    box-shadow: 0 5px 10px 1px #000000;
+    position: absolute;
+    top: -0.2rem;
+    border-radius: 0.1rem 0.1rem/0.1rem 0.1rem;
+}
+.xinxi-picture{
+    width: 1.7rem;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.xinxi-picture img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.xinxi-title{
+    width:5rem;
+    height: 0.5rem;
+    float: left;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+}
+.xinxi>p{
+    height: 0.34rem;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #333333;
+    /* padding-left: 0.1rem;*/
+}
+.xinxi>a{
+    font-size: 0.28rem;
+    line-height: 1.3rem;
+    color: #333333;
+}
+/*按钮开始*/
+.sananniu{
+    width: 7.02rem;
+    height: 2.76rem;
+    background: #fff;
+    margin: 0 auto;
+    padding:0.3rem 1.26rem 0.5rem;
+}
+.sanzong{
+    width: 4.5rem;
+    /*height: 0.5rem;*/
+    /*background:red;*/
+    text-align: center;
+    line-height:0.5rem;
+    font-size: 0.24rem;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+}
+.anniu{
+    width: 1.1rem;
+    height:0.46rem;
+    border-radius: 25px;
+
+}
+.diandan{
+    background-color: #fb8ca1;
+}
+.pingjia{
+    background-color: rgb(255,224,159);
+}
+.shangjia{
+    background-color: rgb(255,224,159);
+}
+/*三个按钮结束*/
+/*商品部分开始*/
+.goodsbox{
+    width: 7.5rem;
+    height: 8.2rem;
+    padding: 0.28rem;
+    box-sizing:border-box;
+    background: rgb(238,238,238);
+    margin: 0 auto;
+    display: flex;
+}
+.goodszuo{
+    width:1.3rem;
+    height:7.64rem;
+    /*background: pink;*/
+    display: flex;
+    flex-direction: column;
+}
+.zuo{
+    width: 1.04rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    border: 0.03rem solid #ffac13;
+    color: #ffac13;
+    font-size: 0.24rem;
+    text-align:center;
+    line-height: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.rexiao{
+    background: #ffac13;
+    color: #fff;
+}
+.goodsyou{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shangpinitem{
+    width: 100%;
+    height:1.3rem;
+    padding:0.1rem 0.15rem 0.1rem 0.3rem;
+    display: flex;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.ningmengsimg{
+    height: 1.09rem;
+    margin-right: 0.4rem;
+}
+.youjieshao{
+    flex-grow: 1;
+    height: 100%;
+    position: relative;
+}
+.nms{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    margin-top:-0.06rem;
+}
+.price{
+    font-size: 0.18rem;
+}
+.pricezuo{
+    color:red;
+    margin-right:0.45rem ;
+}
+.priceyou{
+    color: #ffac13;
+}
+.qianggou{
+    font-size: 0.18rem;
+    color: #000;
+    opacity: 0.8;
+    margin-top:-0.05rem;
+}
+.shuliang{
+    color:#ffac13;
+}
+.xian{
+    font-size: 0.18rem;
+    color:#ffac13;
+    margin-top:-0.04rem;
+}
+.jianshao{
+    height: 0.37rem;
+    position: absolute;
+    left:2.1rem;
+    bottom:0;
+}
+.jige{
+    font-size: 0.24rem;
+    color: red;
+    position: absolute;
+    bottom: 0.02rem;
+    right:0.48rem;
+}
+.zengjia{
+    height: 0.37rem;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.bjlxqimg{
+    width: 1.07rem;
+    margin:0 0.2rem 0 -0.1rem;
+}
+.dsnimg{
+    width: 0.81rem;
+    margin-right:0.34rem;
+}
+.qiaokeliimg{
+    width: 0.94rem;
+    margin:0 0.3rem 0 -0.07rem;
+}
+.xueqiuimg{
+    width: 0.82rem;
+    margin-right: 0.34rem;
+}
+/*商品部分结束*/
+/*第二部分结束*/
+/*底部开始*/
+.footbox{
+    width: 7.5rem;
+    height: 1.02rem;
+    background:#ffffff;
+    padding:0 0.7rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footbox img{
+    width: 0.5rem;
+    margin-right:0.4rem;
+}
+.gwxiangqing{
+    flex-grow: 1;
+    height:0.6rem;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.jiesuaner {
+    width: 1.3rem;
+    height: 0.42rem;
+    background: #ffac13;
+    border-radius: 0.21rem;
+    opacity: 0.6;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.jine{
+    color: #f8cd33;
+    font-family: 新宋体;
+    font-size:0.18rem;
+}
+.jianshu{
+    position: absolute;
+    top: 0.15rem;
+    left: 1.05rem;
+    width:0.27rem;
+    height:0.27rem;
+    background-color: #ffac13;
+    color:#fefefe;
+    font-size: 0.18rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.27rem;
+}
+/*底部结束*/

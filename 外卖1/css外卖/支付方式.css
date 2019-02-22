@@ -1,0 +1,102 @@
+.beijing{
+    width: 7.5rem;
+    height: 13.34rem;
+    position: relative;
+}
+.beijing img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.xzzf{
+    height: 9rem;
+    width: 7.5rem;
+    position: absolute;
+    top: 6.18rem;
+    background: #fff;
+    z-index: 999;
+    padding:1.15rem 0;
+    box-sizing: border-box;
+}
+.dyh{
+    width: 7.5rem;
+    height: 0.3rem;
+    padding:0 0.7rem;
+    position: relative;
+}
+.dyh img{
+    width:0.25rem;
+    height: 0.29rem;
+    position: absolute;
+}
+.dyh span{
+    font-size: 0.24rem;
+    color: #ffac13;
+    margin-left: 2.1rem;
+    line-height: 0.3rem;
+    position: absolute;
+    top: 0;
+}
+.deh{
+    font-size: 0.24rem;
+    color:rgba(0,0,0,0.8);
+    margin-top: 0.72rem;
+    padding:0 2.62rem;
+}
+.e{
+    margin-left: 0.18rem;
+}
+.dsbf{
+    height: 5.6rem;
+    padding:0 0.24rem;
+    margin-top: 0.4rem;
+}
+.zfitem{
+    width: 7.5rem;
+    height: 0.85rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    padding: 0.27rem 2.4rem 0.27rem 2.2rem;
+    display: flex;
+}
+.sekuai{
+    width: 0.45rem;
+    height: 0.1rem;
+    margin: auto 0;
+}
+.yiyiyi{
+    background: #fbbe3a;
+    margin-right: 0.3rem;
+}
+.zfzi{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    margin: auto 0;
+}
+.tu{
+    width:0.9rem;
+    height: 100%;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+}
+.zfitem i{
+    font-size: 0.26rem;
+    margin: auto 0;
+    text-align: center;
+}
+.ererer{
+    background: #3afb95;
+    margin-right: 0.3rem;
+}
+.sansansan{
+    background: #3a83fb;
+    margin-right: 0.3rem;
+}
+.sisisi{
+    background:#b93afb;
+    margin-right: 0.3rem;
+}
+.wuwuwu{
+    background: #fb3a55;
+    margin-right: 0.3rem;
+}

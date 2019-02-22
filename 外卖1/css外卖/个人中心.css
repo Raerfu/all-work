@@ -1,0 +1,265 @@
+.header{
+    width: 100%;
+    height: 1.35rem;
+    background: #ffac13;
+}
+.container{
+    width: 7.5rem;
+    height: 100%;
+    min-height:1px ;
+    margin: 0 auto;
+    display: flex;
+}
+.gerenzhongixn{
+    width: 7.22rem;
+    height: 0.45rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+   /* background: #21c0bd;*/
+}
+.shezhi-left{
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    /*background: white;*/
+    position: relative;
+}
+.shezhi-left img{
+  width:0.45rem;
+    height: 0.45rem;
+    color: white;
+}
+.shezhi-left i{
+    font-size: 0.4rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.shezhi-title{
+    color: white;
+}
+/*中间个人中心*/
+.gerenbox{
+     width: 100%;
+    height: 3rem;
+   /* background: aqua;*/
+}
+.xinxibox{
+    width: 6.7rem;
+    height: 1.53rem;
+    margin: 0 auto;
+    position: relative;
+}
+.xinxi{
+    width: 100%;
+    height: 1.53rem;
+    background: white;
+    box-shadow: 0 5px 10px 1px #000000;
+    position: absolute;
+    top: -0.2rem;
+    border-radius: 0.1rem 0.1rem/0.1rem 0.1rem;
+}
+.xinxi-picture{
+    width: 1.7rem;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.xinxi-picture img{
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.xinxi-title{
+    width:5rem;
+    height: 0.5rem;
+    float: left;
+}
+.xinxi-title>p {
+    width: 2.3rem;
+    height: 0.28rem;
+    font-size: 0.28rem;
+    line-height: 0.45rem;
+    color: #333333;
+    margin-top: 0.1rem;
+    float: left;
+   /* padding-right: 0.3rem;*/
+   /* padding-left: 0.1rem;*/
+}
+.xinxi-title>a {
+    width:1.3rem;
+    height: 0.28rem;
+    font-size: 0.28rem;
+    line-height: 0.45rem;
+    color: #333333;
+    margin-top: 0.1rem;
+    float: left;
+    /* padding-right: 0.3rem;*/
+    padding-left: 0.1rem;
+}
+.xinxi-title>i{
+   text-align: center;
+    line-height: 0.65rem;
+    color: #ffac13;
+}
+.xinxi>p{
+    height: 0.34rem;
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    color: #333333;
+   /* padding-left: 0.1rem;*/
+}
+.xinxi>a{
+    font-size: 0.28rem;
+    line-height: 1.3rem;
+    color: #333333;
+}
+.shouji-p{
+    width: 0.25rem;
+    height: 0.34rem;
+   /* background: #333333;*/
+    float: left;
+    margin-top: 0.49rem;
+}
+.shouji-p img{
+    width: 0.2rem;
+    height: 100%;
+}
+.jifenbox{
+    width: 5.04rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin:0.1rem auto;
+
+}
+.jifenbox span{
+    height: 100%;
+    font-size: 0.57rem;
+    text-align: center;
+    color: #808080;
+}
+.jifenbox-title>p{
+    font-size: 0.28rem;
+    color: #efb10a;
+    text-align: center;
+}
+.jifenbox-title>h4{
+    font-size: 0.28rem;
+    color: #808080;
+    text-align: center;
+}
+/*其余信息*/
+.qiyuxinxibox{
+    width: 7.5rem;
+    height: 7.7rem;
+    background: #eeeeee;
+    margin: 0 auto;
+    position: relative;
+}
+.qiandao-box{
+    width: 6.7rem;
+    height: 0.9rem;
+    background-color: white;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    position:absolute;
+    top: 0.24rem;
+    left: 0.4rem;
+
+}
+.qiandao-box-picture1{
+    width: 100%;
+    height: 100%;
+    margin: auto 0.2rem;
+    display: flex;
+}
+.qiandao-box-picture1 img{
+    width: 0.66rem;
+    height: 0.66rem;
+    margin-top: 0.12rem;
+    margin-right: 0.24rem;
+}
+.qiandao-box-picture1>p{
+    font-size: 0.38rem;
+    line-height:0.9rem;
+    text-align: left;
+    flex-grow: 0.7;
+    font-weight: 400;
+}
+.qiandao-box-picture1>h1{
+    font-size: 0.28rem;
+    line-height:0.9rem;
+    text-align: right;
+    flex-grow: 0.2;
+    font-weight: 400;
+}
+.qiandao-box-picture1>a{
+    flex-grow:0.15;
+    height: 0.49rem;
+    background: #ffac13;
+    border-radius: 0.3rem;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.dizhi-box{
+    width: 6.7rem;
+    height: 0.9rem;
+    background-color: white;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    position:absolute;
+    top: 1.38rem;
+    left: 0.4rem;
+}
+.kefu-box{
+    width: 6.7rem;
+    height: 0.9rem;
+    background-color: white;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    position:absolute;
+    top: 2.52rem;
+    left: 0.4rem;
+}
+.jiameng-box{
+    width: 6.7rem;
+    height: 0.9rem;
+    background-color: white;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    position:absolute;
+    top: 3.66rem;
+    left: 0.4rem;
+}
+/*底部*/
+.foot{
+    width: 7.2rem;
+    height: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-nav{
+    width: 1.8rem;
+    height: 1rem;
+    margin-top: 0.1rem;
+}
+.foot-nav img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+.foot-nav-title{
+    width: 100%;
+    font-size: 0.1rem;
+    line-height: 0.37rem;
+    text-align: center;
+}

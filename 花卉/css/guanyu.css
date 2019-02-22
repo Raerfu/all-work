@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;/*清除文字下划线*/
+}
+/*花卉顶部导航开始*/
+.flower-header{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+}
+.header-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+.header-nav a{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.header-nav a:nth-child(7) {
+    color: blue;
+}
+.header-nav a:hover{
+    color:  blue;
+}
+/*导航结束*/
+
+/*轮播图开始*/
+.picture{
+    width: 1884px;
+    height: 760px;
+    position: relative;
+    margin:  0 auto;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    opacity:0.9;
+}
+.picture-dot{
+    width: 55px;
+    height: 21px;
+    position: absolute;
+    bottom: 50px;
+    left: 900px;
+}
+.dots{
+    width: 20px;
+    height: 20px;
+    background: #00a5c4;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    float:right;
+    cursor: pointer;
+}
+.dot:hover{
+    background: #00a5c4;
+}
+.picture-left{
+    width: 42px;
+    height: 69px;
+    /* background: #000;*/
+    position: absolute;
+    left:0;
+    top: 380px;
+    background-image:url(../img/icon-slides.png);
+    background-position: 83px 0;
+}
+.picture-left:hover{
+    background-position: 0 0;
+}
+.picture-right{
+    width: 42px;
+    height: 69px;
+
+    position: absolute;
+    right: 0;
+    top: 380px;
+    background-image: url("../img/icon-slides.png");
+    background-position: 42px 0;
+}
+.picture-right:hover{
+    background-position: -42px 0;
+}
+/*轮播图结束*/
+
+/*倒二*/
+.five-box-next{
+    width: 1080px;
+    height: 612px;
+    padding: 30px;
+    margin: 50px auto 0;
+    box-sizing: border-box;
+}
+.five-title-p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    color:rgb(34,34,34);
+    text-align: center;
+}
+.five-title-p span{
+    height: 20px;
+}
+.five-picture-map{
+    width: 1080px;
+    height: 340px;
+    margin-top: 20px;
+    text-align: center;
+}
+.five-picture-map img {
+    width: 530px;
+    height: 340px;
+}
+/*倒二*/
+
+/*底部开始*/
+.foot{
+    width: 1349px;
+    height: 181px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.foot-text{
+    width: 1349px;
+    height: 56px;
+    margin-top: 10px;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+}
+.foot-picture{
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+}
+.foot-picture i{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #0dc100;
+    cursor: pointer;
+}
+.foot-picture a{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #21c0bd;
+    cursor: pointer;
+}
+.foot-txt{
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+.foot-txt img{
+    width: 20px;
+    height: 20px;
+}
+.txt-1{
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+.foot-txt-next{
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+.txt-2{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170,170,170);
+    text-align: center;
+}
+/*底部结束*/
