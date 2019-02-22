@@ -543,6 +543,8 @@ a{
 
 /*手机开始*/
 .phone-box{
+    width: 1240px;
+    margin: 0 auto;
     height: 686px;
     background: #e0e0e0;
 }
@@ -677,7 +679,7 @@ a{
 
 /*家电部分开始*/
 .JD-box{
-    /*width: 1226px;*/
+    width: 1240px;
     height: 686px;
     margin: 0 auto;
     background: #e0e0e0;
@@ -750,6 +752,7 @@ a{
 .box-picture-big{
     width: 1240px;
     height: 628px;
+    margin: 0 auto;
    /* background: black;*/
 
 }
@@ -897,7 +900,9 @@ a{
 
 /*为你推荐开始*/
 .mi-weinituijian{
+    width: 1240px;
     height: 380px;
+    margin: 0 auto;
     background: #e0e0e0;
 }
 .tuijian-top{
@@ -1010,8 +1015,10 @@ a{
 
 /*内容开始*/
 .neirong-box{
+    width: 1240px;
     height: 478px;
     background: #ccc;
+    margin: 0 auto;
 }
 .neirong-box-top{
     width: 1226px;
