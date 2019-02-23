@@ -181,6 +181,7 @@ a {
 .inputBox input {
     margin: 10px 20px;
     outline: medium;
+    border:none;
 }
 
 .recommend {
