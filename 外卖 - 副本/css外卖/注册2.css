@@ -1,0 +1,135 @@
+.box{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.box img{
+    width: 7.5rem;
+    height: 13.34rem;
+    position: relative;
+}
+.title-box{
+    width: 1.46rem;
+    height: 0.53rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background: #ffac13;
+    color: white;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.48rem;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.14rem;
+}
+.thred-box{
+    width: 5rem;
+    height: 1.65rem;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 6.47rem;
+    left: 1.25rem;
+}
+.second-box{
+    width: 4.5rem;
+    height: 1rem;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 7.37rem;
+    left: 1.5rem;
+}
+/*中间部分*/
+.first-box{
+    width: 5.61rem;
+    height: 4.15rem;
+    background: white;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 3.74rem;
+    left: 0.95rem;
+}
+.first-box-kuang{
+    width: 4.2rem;
+    height: 0.5rem;
+    margin: 0.5rem auto;
+}
+.first-box-kuang img{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+}
+.first-box-zhanghao-right{
+    width: 3.27rem;
+    height: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.01rem solid #ffac13;
+    float: right;
+}
+.first-box-zhanghao-right>p{
+    font-size: 0.24rem;
+    color: black;
+    text-align: left;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+}
+.first-box-zhanghao-right>p>img{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.1rem;
+    float: right;
+    margin-right: 0.2rem;
+}
+.first-box-zhanghao-right i{
+    color: red;
+}
+.first-box-zhanghao-right>li{
+    font-size: 0.24rem;
+    color: #a9a9a9;
+    text-align: left;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+}
+.first-box-kuang2{
+    width: 4.2rem;
+    height: 0.25rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first-box-kuang2-1{
+    width: 1.5rem;
+    height: 0.25rem;
+}
+.first-box-kuang2-left{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    border: 0.01rem solid #a9a9a9;
+    float: left;
+}
+.first-box-kuang2-1 i{
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.24rem;
+    float: left;
+    color: #a9a9a9;
+}
+.first-box-kuang2-1>p{
+    font-size: 0.14rem;
+    color: #a9a9a9;
+    line-height: 0.24rem;
+    text-align: center;
+}
+.denglu{
+    width: 2.26rem;
+    height: 0.57rem;
+    background: #a9a9a9;
+    color: white;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.56rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+}

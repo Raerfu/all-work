@@ -1,0 +1,76 @@
+.beijing{
+     width: 7.5rem;
+     height: 13.34rem;
+     position: relative;
+ }
+.beijing img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.zhifubox{
+    z-index:999;
+    position: absolute;
+    top:3.63rem;
+    left: 1.05rem;
+    width: 5.4rem;
+    height: 4.35rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    padding-bottom: 0.24rem;
+    position: relative;
+}
+.zhifubox img{
+    width: 0.25rem;
+    height: 0.35rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.2rem;
+}
+.zhiwenzhifu{
+    width: 100%;
+    height: 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #ffac13;
+    line-height: 0.56rem;
+}
+.rmb{
+    width: 100%;
+    height: 0.3rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #ffac13;
+    line-height: 1rem;
+}
+.zuixia{
+    width: 1.6rem;
+    height:2.45rem;
+    margin: 0 auto;
+    padding:2.5rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.zuixia img{
+    width: 0.95rem;
+    height: 0.95rem;
+    position: absolute;
+    top:1rem;
+    left: 0.2rem;
+}
+.tt{
+    margin: 0 auto;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+}
+.zhiwen{
+    width:0.94rem;
+    height: 0.94rem;
+    margin-bottom: 0.14rem;
+}
+.zhiwenid{
+    margin-bottom: 0.28rem;
+}
